@@ -12,7 +12,7 @@ class News extends Model
     protected $fillable = [
         'title',
         'content',
-        'Highlights',
+        'highlights',
         'author',
         'publish_date',
         'category_id',

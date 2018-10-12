@@ -11,7 +11,7 @@ class Categories extends Model
 
     protected $fillable = [
         'name',
-        'Display_name',
+        'display_name',
     ];
 
     protected $dates = ['deleted_at'];
